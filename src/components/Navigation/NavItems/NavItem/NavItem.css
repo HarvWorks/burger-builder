@@ -1,0 +1,24 @@
+.navItem {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.navItem a {
+  color: grey;
+  text-decoration: none;
+  height: 100%;
+  padding: 16px 10px;
+  border-bottom: 4px solid transparent;
+  box-sizing: border-box;
+  display: block;
+}
+
+.navItem a:hover,
+.navItem a:active,
+.navItem a.active {
+  border-bottom: 4px solid #8F5E1E;
+  color: #8F5E1E;
+}

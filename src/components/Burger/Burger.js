@@ -23,6 +23,7 @@ const burger = (props) => {
         <BurgerIngredient type="breadTop"/>
         {transformedIngredients}
         <BurgerIngredient type="breadBottom"/>
+        <div className={classes.bottomPadding}></div>
       </div>
     </div>
   )

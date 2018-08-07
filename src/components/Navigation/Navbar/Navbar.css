@@ -1,0 +1,20 @@
+.navbar {
+  height: 56px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 5px #ccc;
+  background-color: #f7f7f7c7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.navbar nav {
+  height: 100%;
+
+}

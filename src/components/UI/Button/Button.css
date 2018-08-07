@@ -1,0 +1,18 @@
+.button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.success {
+    background-color: #70b31c;
+}
+
+.danger {
+    background-color: #944317;
+}
