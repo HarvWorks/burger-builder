@@ -16,5 +16,17 @@
 
 .navbar nav {
   height: 100%;
+}
 
+.mobileOnly {
+  display: none;
+}
+
+@media (max-width: 499px) {
+  .mobileOnly {
+    display: inherit;
+  }
+  .desktopOnly {
+    display: none;
+  }
 }

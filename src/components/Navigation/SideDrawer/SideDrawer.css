@@ -7,7 +7,7 @@
   bottom: 0;
   z-index: 200;
   background-color: white;
-  padding: 32px;
+  padding: 12px;
   box-sizing: border-box;
   transition: transform 0.3s ease-out;
 }
@@ -18,10 +18,15 @@
   }
 }
 
-.Open {
+.open {
   transform: translateX(0);
 }
 
-.Close {
+.close {
   transform: translateX(-100%);
+}
+
+.logo {
+  height: 11%;
+  margin-bottom: 20px;
 }
