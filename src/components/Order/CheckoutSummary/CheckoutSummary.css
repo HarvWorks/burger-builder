@@ -1,0 +1,17 @@
+.burgerContainer {
+  width: 100%;
+  padding-top: 85.7%;
+  position: relative;
+}
+
+.checkoutSummary {
+  text-align: center;
+  width: 70vw;
+  margin: auto;
+}
+
+@media (min-width: 600px) {
+  .checkoutSummary {
+    width: 700px;
+  }
+}

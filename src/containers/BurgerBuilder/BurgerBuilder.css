@@ -1,0 +1,13 @@
+.burgerContainer {
+  width: 70vw;
+  padding-top: 60vw;
+  position: relative;
+  margin: auto;
+}
+
+@media (min-width: 1000px) {
+  .burgerContainer {
+    width: 700px;
+    padding-top: 600px;
+  }
+}

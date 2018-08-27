@@ -9,6 +9,12 @@
     margin: 10px;
 }
 
+.button:disabled {
+  background-color: #ccc;
+  color: #ddd;
+  cursor: not-allowed;
+}
+
 .success {
     background-color: #70b31c;
 }
